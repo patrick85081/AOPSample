@@ -23,11 +23,11 @@ namespace AOPSample004
         }
     }
 
-    public static class CastleConfig
+    public static class Factory
     {
-        public static IWindsorContainer Container { get; private set; }
+        private static IWindsorContainer Container { get; }
 
-        static CastleConfig()
+        static Factory()
         {
             Container = new WindsorContainer();
 
@@ -49,18 +49,14 @@ namespace AOPSample004
                     .LifestyleTransient()
                     .Interceptors(InterceptorReference.ForType<LogInterceptor>()).Anywhere);
         }
-    }
-
-    public static class Factory
-    {
         public static IOrder CreateOrder()
         {
-            return CastleConfig.Container.Resolve<IOrder>();
+            return Container.Resolve<IOrder>();
         }
 
         public static ICustomer CreateCustomer()
         {
-            return CastleConfig.Container.Resolve<ICustomer>();
+            return Container.Resolve<ICustomer>();
         }
     }
     
