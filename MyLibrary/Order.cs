@@ -2,13 +2,6 @@ using System;
 
 namespace MyLibrary
 {
-    public interface IOrder
-    {
-        bool Insert(string id, string name);
-        bool Update(string id, string name);
-        bool Delete(string id);
-    }
-
     public class Order : IOrder
     {
         public bool Insert(string id, string name)
