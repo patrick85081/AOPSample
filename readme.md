@@ -22,5 +22,9 @@
 > Install-Nuget `Castle.Core`  
 > Install-Nuget `Castle.Windsor`  
 
+## AOPSample006
+使用 `.Net Framework` 的 `Remoting` 裡， `RealProxy` 和 `ProxyAttribute` 來實現 `AOP`
+
 ## 資料來源：
-[AOP by Castle.Windsor](https://dotblogs.com.tw/hatelove/2014/05/04/implementation-aop-by-castle_windsor)
+[AOP by Castle.Windsor](https://dotblogs.com.tw/hatelove/2014/05/04/implementation-aop-by-castle_windsor)  
+[實現 AOP 的幾種方式](https://www.cnblogs.com/zuowj/p/7501896.html)  
