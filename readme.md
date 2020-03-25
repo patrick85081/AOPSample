@@ -33,6 +33,10 @@
 > Install-Nuget `System.Reflection.DispatchProxy`  
 > 有版本限制，需 `.Net Framework 4.6` 以上  
 
+## AOPSample009
+利用 `DispatchProxy` 實現簡易 `AOP`
+
 ## 資料來源：
 [AOP by Castle.Windsor](https://dotblogs.com.tw/hatelove/2014/05/04/implementation-aop-by-castle_windsor)  
 [實現 AOP 的幾種方式](https://www.cnblogs.com/zuowj/p/7501896.html)  
+[DispatchProxy實現簡單AOP]( https://www.cnblogs.com/elderjames/p/implement-simple-aop-using-a-dotnet-core-library-system-reflection-dispatchproxy.html )
