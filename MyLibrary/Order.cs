@@ -12,7 +12,7 @@ namespace MyLibrary
 
         public bool Update(string id, string name)
         {
-            Console.WriteLine($"Order Insert Id: {id}, Name: {name}");
+            Console.WriteLine($"Order Update Id: {id}, Name: {name}");
             return true;
         }
 
