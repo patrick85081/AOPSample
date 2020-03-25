@@ -28,6 +28,11 @@
 ## AOPSample007
 使用 `.Net Core` 的 `DispatchProxy` 實現 `AOP`
 
+## AOPSample008
+使用 `.Net Framework 4.6` 的 `DispatchProxy` 來實現 `AOP`
+> Install-Nuget `System.Reflection.DispatchProxy`  
+> 有版本限制，需 `.Net Framework 4.6` 以上  
+
 ## 資料來源：
 [AOP by Castle.Windsor](https://dotblogs.com.tw/hatelove/2014/05/04/implementation-aop-by-castle_windsor)  
 [實現 AOP 的幾種方式](https://www.cnblogs.com/zuowj/p/7501896.html)  
